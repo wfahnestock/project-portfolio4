@@ -1,5 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800");
 body {
     margin: 0 !important;
     padding: 0 !important;
     background-color: #222222 !important;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#splash {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+#splash img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    filter: brightness(30%);
+}
+
+#heading {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-blur {
+    background-color: #222222;
+    opacity: .3;
 }
