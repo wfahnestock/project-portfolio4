@@ -2,7 +2,7 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-    background-color: #222222 !important;
+    background-color: #d9d9d9 !important;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -35,8 +35,9 @@ body {
 
 #nav {
     position: absolute;
-    left: 5%;
     top: 2%;
+    width: 100%;
+    right: 35%;
 }
 
 #nav a {
@@ -49,4 +50,33 @@ body {
 #nav a:hover {
     text-decoration: underline;
 
+}
+
+#nav > #right {
+    float: right;
+}
+#nav > #right a {
+    position: relative;
+    padding-left: 25px;
+}
+#roster {
+    background-color: #222222;
+    color: #d9d9d9;
+    width: 100%;
+    height: 750px;
+}
+.sectionTitle {
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    top: 25px;
+}
+.sectionTitle h2 {
+    text-decoration: underline;
+    text-decoration-color: #177bbd;
+}
+.container {
+    text-align: center !important;
+    position: relative;
+    top: 75px;
 }
