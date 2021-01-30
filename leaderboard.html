@@ -18,22 +18,32 @@
     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
 </head>
 
-<body>
+<body >
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browser-upgrade.org/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <main>
+    <main class="body-leaderboard">
 
         <section id="header">
             <div id="splash" style="height:50px;">
-                <div id="nav" style="margin-top:7px;">
+                <nav id="nav" style="margin-top:7px;">
                     <span class="bold"><a href="index.html">BroSquad</a></span>
                     <div id="right">
                         <a href="index.html">Home</a>
                         <a href="about.html">About</a>
                         <a href="leaderboard.html">Leaderboard</a>
+                        <span class="sr-only">Open main menu</span>
+                        <input type="checkbox" id="menu-checkbox" />
+                        <span id="hamburger"><i class="fas fa-bars fa-2x"></i></span>
                     </div>
-                </div>
+                        <div id="mobile-menu">
+                            <ul id="menu-items">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="leaderboard.html">Leaderboard</a></li>
+                            </ul>
+                        </div>
+                </nav>
             </div>
         </section>
 
