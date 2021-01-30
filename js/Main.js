@@ -1,5 +1,5 @@
 let api = 'https://apps.runescape.com/runemetrics/profile/profile';
-let user = '?user=Imbued';
+let user = '?user=Nayphin';
 let activities = '&activities=20';
 
 let url = api + user + activities;
