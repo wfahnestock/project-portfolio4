@@ -7,10 +7,7 @@ let url = api + user + activities;
 const leaderboard = document.querySelector('#leaderboard');
 
 fetch(url).then((response) => response.json()).then(function (data) {
-    console.log("raw data response: ");
-    console.log(data);
-    console.log("activities response: ");
-    console.log(data.activities);
+    
     
 }).catch(function (error) {
     console.log(error);
